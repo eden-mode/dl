@@ -1,5 +1,5 @@
 //const APP_URL = 'http://localhost:5000/';
-//const APP_URL = 'https://wildshinobu.pythonanywhere.com/';
+//const APP_URL = 'https://edenmode.pythonanywhere.com/';
 const APP_URL = window.location.protocol + "//" + window.location.hostname +  (window.location.hostname === "localhost" ? ":5000/" : "/");
 const BASE_SIM_T = 180;
 const BASE_TEAM_DPS = 50000;

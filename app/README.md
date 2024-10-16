@@ -1,8 +1,8 @@
 # Web DPS Simc App
 
-Deployed here: https://wildshinobu.pythonanywhere.com/
+Deployed here: https://edenmode.pythonanywhere.com/
 
-Demo here: https://wildshinobu.pythonanywhere.com/ui/dl_simc.html
+Demo here: https://edenmode.pythonanywhere.com/ui/dl_simc.html
 
 Flask app on top of the python sim.
 
