@@ -304,3 +304,6 @@ def get_adv_equip():
 @app.route("/simc_git_diff", methods=["GET"])
 def get_git_diff():
     return "<pre>" + subprocess.check_output(["git", "diff", "conf/equip"], cwd=ROOT_DIR, encoding="UTF-8").replace(">", "&gt;").replace("<", "&lt;") + "</pre>"
+
+if __name__ == '__main__':
+    app.run()
